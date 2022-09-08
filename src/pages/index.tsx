@@ -72,7 +72,7 @@ const Home: NextPage = () => {
                     <Text
                       fontSize='4rem'
                       color="pink.700"
-                      mt="-8"
+                      mt="-4"
                       fontFamily="NefelibataBrush">02</Text>
                     <Text
                       fontSize='1.5rem'
