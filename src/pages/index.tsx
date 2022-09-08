@@ -54,7 +54,7 @@ const Home: NextPage = () => {
             fontSize="1.8rem">Informações Importantes
           </Heading>
           <Box>
-            <Accordion defaultIndex={[0, 1]} allowMultiple mt="3">
+            <Accordion defaultIndex={[0, 1, 2]} allowMultiple mt="3">
               <AccordionItem>
                 <AccordionButton>
                   <Box flex='1' textAlign='left' color="#545454"
