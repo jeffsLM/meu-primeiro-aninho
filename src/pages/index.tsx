@@ -37,7 +37,7 @@ const Home: NextPage = () => {
             <Text
               fontSize='sm'
               color="#545454"
-              fontFamily="Bitter">Estou fazendo todos os preparativos para termos o momento mais memoravel juntos!</Text>
+              fontFamily="Bitter">Estou fazendo todos os preparativos para termos o momento mais memorável juntos!</Text>
           </Box>
           <Center>
             <Box boxSize='200'>
@@ -107,35 +107,6 @@ const Home: NextPage = () => {
                       color="#545454"
                       fontFamily="Bitter">shhh! Em breve libero isso, mas não se preocupe te notificaremos!</Text>
                   </Flex>
-                </AccordionPanel>
-              </AccordionItem>
-              <AccordionItem>
-                <h2>
-                  <AccordionButton>
-                    <Box
-                      flex='1'
-                      textAlign='left'
-                      color="#545454"
-                      fontFamily="Bitter">
-                      Dúvidas com o que me presentear?
-                    </Box>
-                    <AccordionIcon />
-                  </AccordionButton>
-                </h2>
-                <AccordionPanel pb={4}>
-                  <Flex flexDir="column" justify="center" align="center" mt="4">
-                    {/* <Box boxSize='200'>
-                      <Image src='/nuvemMine.png' alt='Nuvem' />
-                    </Box> */}
-                      <BsFillHeartFill color="#B83280" fontSize={50} />
-      
-                      <Text
-                        fontSize='sm'
-                        mt="4"
-                        color="#545454"
-                        fontFamily="Bitter">Esquece isso! Sua presença já é mais do que o suficiente!</Text>
-                    </Flex>
-       
                 </AccordionPanel>
               </AccordionItem>
             </Accordion>
