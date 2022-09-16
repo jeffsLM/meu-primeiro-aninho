@@ -1,7 +1,9 @@
 import type { NextPage } from 'next'
 import { Center, Heading, Flex, Box, Stack, Text, Image, Accordion, AccordionItem, AccordionIcon, AccordionButton, AccordionPanel } from '@chakra-ui/react'
-import { GiPadlock } from 'react-icons/gi';
+import { GoLocation } from 'react-icons/go';
 import { BsFillHeartFill } from 'react-icons/bs';
+import { Link } from '@chakra-ui/react'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 const Home: NextPage = () => {
   return (
@@ -43,8 +45,8 @@ const Home: NextPage = () => {
             <Box boxSize='200'>
               <Image src='/nuvem.png' alt='Dan Abramov' />
               <Flex>
-              <Image src='/estrela.png' alt='Estrela 1 ' />
-              <Image src='/estrela.png' alt='Estrela 2' />
+                <Image src='/estrela.png' alt='Estrela 1 ' />
+                <Image src='/estrela.png' alt='Estrela 2' />
               </Flex>
             </Box>
           </Center>
@@ -99,13 +101,16 @@ const Home: NextPage = () => {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  <Flex flexDir="column" justify="center" align="center" mt="4">
-                    <GiPadlock  fontSize={50} color="#B83280" />
+                  <Flex flexDir="column" justify="center" align="center" mt="4" mb="8">
+                    <GoLocation fontSize={50} color="#B83280" />
                     <Text
                       fontSize='sm'
                       mt="4"
                       color="#545454"
-                      fontFamily="Bitter">shhh! Em breve libero isso, mas não se preocupe te notificaremos!</Text>
+                      fontFamily="Bitter">Estr. Pau a Pique, 1691, Louveira - SP, 13290-000</Text>
+                    <Link  href='https://goo.gl/maps/SAbqhU775hciBpWw6' isExternal>
+                      Ou se preferir clique aqui! <ExternalLinkIcon mx='2px' />
+                    </Link>
                   </Flex>
                 </AccordionPanel>
               </AccordionItem>
